@@ -1,0 +1,310 @@
+div,body,p,dl,dt,dd,li,ul,ol,h1,h2,h3,h4,h5,h6,input{
+  margin:0px;
+  padding:0px;
+  list-style:none;/*去掉小圆点*/
+  font-family:Arial,"Microsoft Yahei";
+  font-size:14px;
+}
+a{
+  text-decoration:none;/*去除下划线*/
+}
+/*导航栏开始*/
+.mainbavbox{
+  width:100%;
+  height:100px;
+  border:1px solid black;
+  background:black;
+}
+.mainbox{
+  width:1120px;
+  height:100px;
+  background:black;
+  margin:0 auto;
+  padding-top:31px;
+}
+.main-left{
+  float:left;
+}
+.mainbav-ol{
+  color:#D3D3D3;
+}
+.mainbav-ol:hover{
+  color:#fff;
+}
+.tongdao{
+  display:block;
+  width:86px;
+  height:26px;
+  border:1px solid #666;
+  border-radius:5px;/*圆角矩形，圆角占据的像素*/
+  line-height:26px;
+  text-align:center;
+  margin-top:5px;
+  color:#fff;
+
+}
+.tongdao:hover{
+  border-color:#fff;
+}
+.goumai{
+  display:block;
+  width:115px;
+  height:26px;
+  border:1px solid #6b89d5;
+  border-radius:5px;
+  background:#6b89d5;
+  line-height:26px;
+  text-align:center;
+  margin-top:5px;
+  color:white;
+}
+.goumai:hover{
+color:black;
+border-color:white;
+background-color:white;
+}
+.mainbav-li{
+  float:left;
+  margin-left:30px;
+  line-height:38px;
+
+}
+.main-right{
+width:816px;
+height:38px;
+background:black;
+float:right;
+
+}/*导航栏结束*/
+/*登陆注册*/
+.wo{
+  color:black;
+}
+.column{
+  width:100%;
+  height:38px;
+  background:#e7e8ea;
+    overflow:hidden;
+}
+
+.column1{
+  width:1100px;
+  height:38px;
+  background:#e7e8ea;
+  margin:0 auto;
+}
+.column2{
+  width:128px;
+  height:38px;
+  border:1px solid #e7e8ea;
+  background:#e7e8ea;
+  line-height:19px;
+  }
+.column3{
+  width:14px;
+  height:11px;
+  background:#e7e8ea;
+  margin-top:9px;
+  float:left;
+}
+.column4{
+  text-align:center;
+  margin-top:7px;
+  margin-right:60px;
+}
+.jiantou{
+  float:right;
+  margin:-10px 0; 
+}
+.jiantou:hover{
+  transform:rotate(-180deg);
+  transition:all 1s Linear;
+}
+.mulu{
+  width:96px;
+  height:37px;
+  border:1px solid #e7e8ea;
+  float:right;
+  line-height:38px;
+  
+}
+.text{
+  float:left;
+  margin-right:10px;
+
+}
+/*登陆注册结束*/
+/*内容开始*/
+.content{
+  width:100%;
+  height:1152px;
+  background:#D3D3D2;
+}
+.contentone{
+  width:1118px;
+  height:1150px;
+  background:#D3D3D2;
+  border:1px solid #D3D3D2;
+  margin:0 auto;
+  overflow:hidden;
+
+}
+.thrid{
+  width:356px;
+  height:115px;
+  background:#D3D3D2;
+  border:1px solid #D3D3D2;
+  margin:117px 383px 117px 383px;
+}
+.contenttwo{
+  width:745px;
+  height:800px;
+  background:#D3D3D2;
+  margin:0 auto;
+}/*内容结束*/
+.bottom{
+  width:100%;
+  height:186px;
+  margin-top:36px;
+  background:white;
+}
+.one{
+  width:1120px;
+  height:186px;
+  background:white;
+  margin:0 auto;
+}
+.one div{
+    float:left;
+	margin-left:31.75px;
+}
+/*订单服务*/
+.bottom1{
+width:100%;
+height:162px;
+margin-top:48px;
+background:white;
+border-top:1px solid #ccc
+}
+.bottom2{
+  width:1120px;
+  height:162px;
+  background:white;
+  margin:0 auto;
+}
+.dingdan{
+  width:72px;
+  height:139px;
+  float:left;
+  margin-right:80px;
+}
+
+.fuwu{color:black;
+font-size:18px;
+  margin-top:32px;
+  margin-bottom:25px;
+}
+.xiaozi{
+ color:gray;
+ font-size:12px;
+}
+.xiaozi:hover{
+  color:#6b89d5;
+}
+.lianxi{
+border:0px solid white;
+  width:230px;
+  height:162px;
+  float:right;
+  text-align:right;
+}
+.zaixian{
+  display:block;
+  width:117px;
+  height:34px;
+  border-radius:5px;
+  background:#6b89d5;
+  background-image:url(../image/44.png);
+  margin-top:32px;    
+  margin-left:113px;
+ text-align:center; 
+ line-height:34px;
+}
+.wenhao{
+  width:25px;
+  height:25px;
+  border:0px solid red;
+  float:left
+  
+}
+.zixun{
+  color:white;
+}
+.dianhua{
+color:black;
+  font-size:28px;
+}
+.riqi{
+  color:gray;
+}
+/*最后*/
+.bottom3{
+  width:100%;
+  height:64px;
+  background:#f1f1f1;
+}
+.geng{
+  color:#6b89d5;
+}
+.bottom4{
+  width:1122px;
+  height:64px;
+  border:0px solid red;
+  background:#f1f1f1;
+  margin:0 auto;
+}
+.bottom5{
+  width:700px;
+  height:36px;
+  border:0px solid red;
+  line-height:48px;
+}
+.banquan1{
+  float:left;
+}
+.bottom6{
+  width:500px;
+  height:15px;
+}
+.hao{
+  float:left;
+  position:relative;
+  bottom:20px;
+}
+.bottom6 ul{
+  color:gray;
+}
+.dibu{
+  width:120px;
+  height:30px;
+  float:right;
+  text-align:center;
+  margin-top:30px;
+}
+.tuu{
+  width:15px;
+  height:15px;
+     background-image:url(../image/flag.png);
+     float:left;
+	 margin-top:3px;
+
+}
+.jiantou1{
+  margin-left:15px;
+}
+.jiantou1:hover{
+  transform:rotate(-180deg);
+  transition:all 1s Linear;
+ .guoqi{
+   
+ }
